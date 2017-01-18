@@ -1,0 +1,138 @@
+<html> 
+    
+    <head> 
+    
+        <title>  Webpage with style</title>
+        
+        
+        
+        <!-- floating allows us to move things in different positions on the webpage -->
+        
+        
+            <style type="text/css">
+                
+                
+                .red {
+                    
+                    color: red;
+                    
+                }
+                
+                .large {
+                    
+                    font-size: 500%;
+                }
+                
+                #green{
+                    
+                    
+                    color:green;
+                    
+                }
+                
+                .underline {
+                    
+                    text-decoration: underline;
+                    
+                }
+                
+                
+                
+                
+                #first-section {
+                    
+                    color:blue;
+                    background-color: pink;
+                    width: 100px;
+                    position:fixed;
+                                /* relative position moves with the page */
+                    
+                    
+                                /* abosolute position moves with  out of the page */
+                                /* fixed position stacys fix while moving with page */
+                        /* each can use top or left positioning */
+
+
+
+                    /* z index allow position one item over another */
+                    
+                    z-index: 1;
+                }
+                
+                
+
+                
+                #second-section {
+                    
+                    background-color: yellow;
+                    width:200px;
+                    
+                                /* how to position items on a webpage */
+                    z-index: 2;
+                    /* opacity is for see through between 0 and 1 */
+                    
+                    
+                    opacity: 0.5;
+                    
+                }
+                
+                
+
+        
+
+            </style>
+    
+    
+    </head>
+
+    <body> 
+     
+        <div id= "first-section">
+                
+        <p> The quick brown fox jumped of the lazy dog. </p>
+        
+        
+        <p> this is some more text <span class="underline"> and this text is underline</span> </p>
+    
+        
+        
+        
+        
+        </div>
+        
+        
+            <div id= "second-section">
+            
+                
+                
+                <p > Wow, I love internal CSS</p>
+
+                    <!-- how to change the color of text and size -->
+
+                <h1> CSS is cool</h1>
+
+
+
+            
+        
+        
+            </div>
+                
+        <div class="clear-float"> 
+        
+                <p> This paragraph is not floated</p>
+
+        
+        
+        
+        </div>
+    
+    
+    </body>
+
+
+
+
+
+
+</html>
